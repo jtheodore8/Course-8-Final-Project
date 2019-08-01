@@ -123,11 +123,7 @@ library(knitr)
 kable(final_model_compare, digits = round(4))
 ```
 
-Using the individual Extreme Gradient Boosting model on the supplied "pml-testing" test data (n=20), results in the following "classe" predictions:
 
-```{r Output Quiz}
-pred_xgb3_finalTesting
-```
 
 
 
